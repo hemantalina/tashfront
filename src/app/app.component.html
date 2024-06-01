@@ -1,0 +1,5 @@
+<div class="container-fluid">
+    <app-form (userAdded)="addUser($event)"></app-form>
+    <app-table [users]="users" (userDeleted)="deleteUser($event)" (genpdf)="pdfgen($event)"></app-table>
+    <app-pdf-viewer *ngIf="pdfUrl" [urlpdf]="pdfUrl" ></app-pdf-viewer>
+</div>

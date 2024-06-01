@@ -1,0 +1,47 @@
+.user-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    flex: 1 1 calc(25% - 2rem);
+    margin: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .text-danger{
+    color:red;
+    font-weight: 500;
+  }
+  
+  .btn-primary {
+    flex: 1 1 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
